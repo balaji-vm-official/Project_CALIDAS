@@ -1,2 +1,2 @@
-# Project_Diana
+# Project_DIANA
 Detect Individuals And Navigate Around

@@ -6,7 +6,7 @@
             <geometry>
                 <cylinder radius="0.05" length="0.04"/>
             </geometry>
-            <material name="black"/>
+            <material name="blue"/>
         </visual>
         <collision>
             <geometry>
@@ -21,7 +21,7 @@
     <joint name="laser_joint" type="fixed">
         <parent link="chassis"/>
         <child link="laser_frame"/>
-        <origin xyz="0.1 0 0.175" rpy="0 0 0"/>
+        <origin xyz="0.5 0 0.2" rpy="0 0 0"/>
     </joint>
 
     <!-- Prevent Gazebo from lumping laser_frame into base_link -->

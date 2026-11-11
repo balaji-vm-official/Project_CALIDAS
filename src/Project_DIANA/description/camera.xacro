@@ -6,14 +6,14 @@
             <geometry>
                 <box size="0.010 0.03 0.03"/>
             </geometry>
-            <material name="red"/>
+            <material name="white"/>
         </visual>
     </link>
 
     <joint name="camera_joint" type="fixed">
         <parent link="chassis"/>
         <child link="camera_link"/>
-        <origin xyz="0.305 0 0.080" rpy="0 0 0"/>
+        <origin xyz="0.7 0 0.14" rpy="0 0 0"/>
     </joint>
 
     <joint name="camera_optical_joint" type="fixed">

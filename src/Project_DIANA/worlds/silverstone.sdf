@@ -25,33 +25,6 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
-    <!-- Solid Flat Ground Base -->
-    <!-- <model name="ground_plane">
-      <static>true</static>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>300 300</size>
-            </plane>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>100 100</size>
-            </plane>
-          </geometry>
-          <material>
-            <ambient>0.4 0.4 0.4 1</ambient>
-            <diffuse>0.4 0.4 0.4 1</diffuse>
-          </material>
-        </visual>
-      </link>
-    </model> -->
-
     <!-- Silverstone Track Model (Scaled Down) -->
     <model name="mini_silverstone">
       <pose>12 -3.8 0.7 0 0 -2.4</pose>

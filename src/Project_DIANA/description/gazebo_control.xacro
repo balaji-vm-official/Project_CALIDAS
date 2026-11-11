@@ -5,8 +5,8 @@
         <!-- Differential Drive System Plugin -->
         <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
             <!-- Wheel joints -->
-            <left_joint>left_wheel_joint</left_joint>
-            <right_joint>right_wheel_joint</right_joint>
+            <left_joint>back_left_wheel_joint</left_joint>
+            <right_joint>back_right_wheel_joint</right_joint>
 
             <!-- Kinematics (Harmonic uses radius, not diameter: 0.1m diameter = 0.05m radius) -->
             <wheel_separation>0.35</wheel_separation>

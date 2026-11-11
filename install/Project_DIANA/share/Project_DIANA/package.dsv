@@ -1,0 +1,8 @@
+source;share/Project_DIANA/hook/cmake_prefix_path.ps1
+source;share/Project_DIANA/hook/cmake_prefix_path.dsv
+source;share/Project_DIANA/hook/cmake_prefix_path.sh
+source;share/Project_DIANA/local_setup.bash
+source;share/Project_DIANA/local_setup.dsv
+source;share/Project_DIANA/local_setup.ps1
+source;share/Project_DIANA/local_setup.sh
+source;share/Project_DIANA/local_setup.zsh

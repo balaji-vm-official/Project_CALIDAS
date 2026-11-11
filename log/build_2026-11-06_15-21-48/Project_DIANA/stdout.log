@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/body.xacro
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/gazebo_control.xacro
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/inertia.xacro
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/lidar.xacro
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/gazebo.launch.py
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/rviz.launch.py
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/test.launch.py
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/package_run_dependencies/Project_DIANA
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/parent_prefix_path/Project_DIANA
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/path.sh
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/path.dsv
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.bash
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.sh
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.zsh
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.dsv
+-- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/package.dsv
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/packages/Project_DIANA
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/cmake/Project_DIANAConfig.cmake
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/cmake/Project_DIANAConfig-version.cmake
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/package.xml

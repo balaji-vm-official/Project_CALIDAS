@@ -1,0 +1,9 @@
+/home/comrade/Documents/Project_DIANA/build/Project_DIANA/CMakeFiles/uninstall.dir
+/home/comrade/Documents/Project_DIANA/build/Project_DIANA/CMakeFiles/Project_DIANA_uninstall.dir
+/home/comrade/Documents/Project_DIANA/build/Project_DIANA/CMakeFiles/test.dir
+/home/comrade/Documents/Project_DIANA/build/Project_DIANA/CMakeFiles/edit_cache.dir
+/home/comrade/Documents/Project_DIANA/build/Project_DIANA/CMakeFiles/rebuild_cache.dir
+/home/comrade/Documents/Project_DIANA/build/Project_DIANA/CMakeFiles/list_install_components.dir
+/home/comrade/Documents/Project_DIANA/build/Project_DIANA/CMakeFiles/install.dir
+/home/comrade/Documents/Project_DIANA/build/Project_DIANA/CMakeFiles/install/local.dir
+/home/comrade/Documents/Project_DIANA/build/Project_DIANA/CMakeFiles/install/strip.dir

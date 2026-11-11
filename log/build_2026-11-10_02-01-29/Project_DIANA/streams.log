@@ -1,0 +1,53 @@
+[0.063s] Invoking command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/comrade/Documents/Project_DIANA/build/Project_DIANA -- -j8 -l8
+[0.218s] Invoked command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/comrade/Documents/Project_DIANA/build/Project_DIANA -- -j8 -l8
+[0.259s] Invoking command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/comrade/Documents/Project_DIANA/build/Project_DIANA
+[0.292s] -- Install configuration: ""
+[0.294s] -- Execute custom install script
+[0.296s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/body.xacro
+[0.296s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/camera.xacro
+[0.297s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/car.xacro
+[0.297s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/full_car.urdf.xacro
+[0.298s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/gazebo_control.xacro
+[0.299s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/gazebo_control_car.xacro
+[0.300s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/inertia.xacro
+[0.300s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/lidar.xacro
+[0.301s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/robot.urdf.xacro
+[0.302s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/gazebo_camera.launch.py
+[0.302s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/gazebo_lidar.launch.py
+[0.303s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/gazebo_test.launch.py
+[0.304s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/rviz.launch.py
+[0.304s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/test.launch.py
+[0.305s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/config/basic.rviz
+[0.305s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/config/gz_bridge.yaml
+[0.305s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/config/lidar_only.rviz
+[0.306s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/worlds/silverstone.sdf
+[0.306s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/Mini Silverstone.mtl
+[0.308s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/Mini_Silverstone.obj
+[0.308s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/acacia_sapling.png
+[0.309s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/arrow_sign.png
+[0.309s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/azalea_plant.png
+[0.309s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/coal_block.png
+[0.310s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/curb_colours.png
+[0.311s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/cyan.png
+[0.311s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/gray.png
+[0.311s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/green.png
+[0.312s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/light_gray.png
+[0.312s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/potted_azalea_bush_plant.png
+[0.313s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/startfinish_line.png
+[0.313s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/white.png
+[0.313s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/package_run_dependencies/Project_DIANA
+[0.313s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/parent_prefix_path/Project_DIANA
+[0.314s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/ament_prefix_path.sh
+[0.314s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/ament_prefix_path.dsv
+[0.315s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/path.sh
+[0.315s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/path.dsv
+[0.315s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.bash
+[0.316s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.sh
+[0.317s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.zsh
+[0.317s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.dsv
+[0.317s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/package.dsv
+[0.351s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/packages/Project_DIANA
+[0.351s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/cmake/Project_DIANAConfig.cmake
+[0.352s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/cmake/Project_DIANAConfig-version.cmake
+[0.353s] -- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/package.xml
+[0.360s] Invoked command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/comrade/Documents/Project_DIANA/build/Project_DIANA

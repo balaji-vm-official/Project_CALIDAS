@@ -1,0 +1,45 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/body.xacro
+-- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/camera.xacro
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/gazebo_control.xacro
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/inertia.xacro
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/lidar.xacro
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/description/robot.urdf.xacro
+-- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/gazebo_lidar.launch.py
+-- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/gazebo_test.launch.py
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/rviz.launch.py
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/launch/test.launch.py
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/config/basic.rviz
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/config/gz_bridge.yaml
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/config/lidar_only.rviz
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/worlds/silverstone.sdf
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/Mini Silverstone.mtl
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/Mini_Silverstone.obj
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/acacia_sapling.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/arrow_sign.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/azalea_plant.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/coal_block.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/curb_colours.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/cyan.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/gray.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/green.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/light_gray.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/potted_azalea_bush_plant.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/startfinish_line.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/src/Mini_Silverstone/textures/white.png
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/package_run_dependencies/Project_DIANA
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/parent_prefix_path/Project_DIANA
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/path.sh
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/path.dsv
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.bash
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.sh
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.zsh
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.dsv
+-- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/package.dsv
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/packages/Project_DIANA
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/cmake/Project_DIANAConfig.cmake
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/cmake/Project_DIANAConfig-version.cmake
+-- Up-to-date symlink: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/package.xml

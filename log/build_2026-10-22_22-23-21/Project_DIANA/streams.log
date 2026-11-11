@@ -1,0 +1,45 @@
+[0.022s] Invoking command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/comrade/Documents/Project_DIANA/src/Project_DIANA -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/comrade/Documents/Project_DIANA/install/Project_DIANA
+[0.337s] -- The C compiler identification is GNU 13.3.0
+[0.551s] -- The CXX compiler identification is GNU 13.3.0
+[0.582s] -- Detecting C compiler ABI info
+[0.741s] -- Detecting C compiler ABI info - done
+[0.760s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.761s] -- Detecting C compile features
+[0.761s] -- Detecting C compile features - done
+[0.778s] -- Detecting CXX compiler ABI info
+[0.936s] -- Detecting CXX compiler ABI info - done
+[0.958s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.959s] -- Detecting CXX compile features
+[0.960s] -- Detecting CXX compile features - done
+[0.991s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.271s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.525s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.650s] WARNING: Package name "Project_DIANA" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.741s] -- Added test 'lint_cmake' to check CMake code style
+[1.747s] -- Added test 'xmllint' to check XML markup files
+[1.752s] -- Configuring done (1.7s)
+[1.759s] -- Generating done (0.0s)
+[1.763s] -- Build files have been written to: /home/comrade/Documents/Project_DIANA/build/Project_DIANA
+[1.772s] Invoked command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/comrade/Documents/Project_DIANA/src/Project_DIANA -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/comrade/Documents/Project_DIANA/install/Project_DIANA
+[1.773s] Invoking command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/comrade/Documents/Project_DIANA/build/Project_DIANA -- -j8 -l8
+[1.837s] Invoked command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/comrade/Documents/Project_DIANA/build/Project_DIANA -- -j8 -l8
+[1.852s] Invoking command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/comrade/Documents/Project_DIANA/build/Project_DIANA
+[1.865s] -- Install configuration: ""
+[1.866s] -- Execute custom install script
+[1.866s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/package_run_dependencies/Project_DIANA
+[1.881s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/parent_prefix_path/Project_DIANA
+[1.895s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/ament_prefix_path.sh
+[1.910s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/ament_prefix_path.dsv
+[1.926s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/path.sh
+[1.940s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/environment/path.dsv
+[1.954s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.bash
+[1.968s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.sh
+[1.981s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.zsh
+[1.995s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/local_setup.dsv
+[2.009s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/package.dsv
+[2.025s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/ament_index/resource_index/packages/Project_DIANA
+[2.041s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/cmake/Project_DIANAConfig.cmake
+[2.058s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/cmake/Project_DIANAConfig-version.cmake
+[2.073s] -- Symlinking: /home/comrade/Documents/Project_DIANA/install/Project_DIANA/share/Project_DIANA/package.xml
+[2.089s] Invoked command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/comrade/Documents/Project_DIANA/build/Project_DIANA

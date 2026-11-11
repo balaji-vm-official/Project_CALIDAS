@@ -1,0 +1,4 @@
+source;share/Project_DIANA/local_setup.bash
+source;share/Project_DIANA/local_setup.dsv
+source;share/Project_DIANA/local_setup.sh
+source;share/Project_DIANA/local_setup.zsh

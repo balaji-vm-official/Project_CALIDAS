@@ -1,0 +1,4 @@
+Invoking command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/comrade/Documents/Project_DIANA/build/Project_DIANA -- -j8 -l8
+Invoked command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/comrade/Documents/Project_DIANA/build/Project_DIANA -- -j8 -l8
+Invoking command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/comrade/Documents/Project_DIANA/build/Project_DIANA
+Invoked command in '/home/comrade/Documents/Project_DIANA/build/Project_DIANA' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/comrade/Documents/Project_DIANA/build/Project_DIANA

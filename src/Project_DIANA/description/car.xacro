@@ -37,14 +37,14 @@
                 <material name="red"/>
             </visual>
             <collision>
-                <origin xyz="0.15 0 0.075"/>
+                <origin xyz="0.35 0 0.12"/>
                 <geometry>
-                    <box size="0.4 0.3 0.15"/>
+                    <box size="0.7 0.3 0.15"/>
                 </geometry>
                 <material name="white"/>
             </collision>
-            <xacro:inertial_box mass="1" x="0.3" y="0.3" z="0.15">
-                <origin xyz="0.15 0 0.075" rpy="0 0 0"/>
+            <xacro:inertial_box mass="1" x="0.7" y="0.3" z="0.15">
+                <origin xyz="0.35 0 0.12" rpy="0 0 0"/>
             </xacro:inertial_box>
         </link>
         <joint name="chassis_joint" type="fixed">
@@ -55,21 +55,21 @@
 
         <link name="nose">
             <visual>
-                <origin xyz="0.9 0 0.075"/>
+                <origin xyz="0.9 0 0.065"/>
                 <geometry>
-                    <box size="0.5 0.1 -0.05"/>
+                    <box size="0.5 0.1 0.05"/>
                 </geometry>
                 <material name="red"/>
             </visual>
             <collision>
-                <origin xyz="0.4 0 0.075"/>
+                <origin xyz="0.9 0 0.065"/>
                 <geometry>
-                    <box size="0.5 0.1 -0.05"/>
+                    <box size="0.5 0.1 0.05"/>
                 </geometry>
                 <material name="white"/>
             </collision>
             <xacro:inertial_box mass="1" x="0.5" y="0.1" z="0.05">
-                <origin xyz="0.4 0 0.08" rpy="0 0 0"/>
+                <origin xyz="0.9 0 0.065" rpy="0 0 0"/>
             </xacro:inertial_box>
         </link>
         <joint name="nose_joint" type="fixed">
@@ -87,15 +87,15 @@
             </visual>
             <collision>
                 <geometry>
-                    <cylinder radius="0.076" length="0.06"/>
+                    <cylinder radius="0.067" length="0.3"/>
                 </geometry>
                 <material name="black"/>
             </collision>
-            <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <xacro:inertial_cylinder mass="0.1" length="0.3" radius="0.067">
                 <origin xyz="0 0 0" rpy="0 0 0"/>
             </xacro:inertial_cylinder>
         </link>
-        <joint name="front_rod" type="continuous">
+        <joint name="front_rod_joint" type="fixed">
             <parent link="base_link"/>
             <child link="front_rod"/>
             <origin xyz="0.96 0 0.08" rpy="-${pi/2} 0 0"/>
@@ -115,7 +115,7 @@
                 </geometry>
                 <material name="black"/>
             </collision>
-            <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <xacro:inertial_cylinder mass="0.1" length="0.07" radius="0.094">
                 <origin xyz="0 0 0" rpy="0 0 0"/>
             </xacro:inertial_cylinder>
         </link>
@@ -135,11 +135,11 @@
             </visual>
             <collision>
                 <geometry>
-                    <cylinder radius="0.076" length="0.07"/>
+                    <cylinder radius="0.094" length="0.07"/>
                 </geometry>
                 <material name="black"/>
             </collision>
-            <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <xacro:inertial_cylinder mass="0.1" length="0.07" radius="0.094">
                 <origin xyz="0 0 0" rpy="0 0 0"/>
             </xacro:inertial_cylinder>
         </link>
@@ -159,11 +159,11 @@
             </visual>
             <collision>
                 <geometry>
-                    <cylinder radius="0.08" length="0.07"/>
+                    <cylinder radius="0.094" length="0.08"/>
                 </geometry>
                 <material name="black"/>
             </collision>
-            <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <xacro:inertial_cylinder mass="0.1" length="0.08" radius="0.094">
                 <origin xyz="0 0 0" rpy="0 0 0"/>
             </xacro:inertial_cylinder>
         </link>
@@ -183,11 +183,11 @@
             </visual>
             <collision>
                 <geometry>
-                    <cylinder radius="0.08" length="0.07"/>
+                    <cylinder radius="0.094" length="0.08"/>
                 </geometry>
                 <material name="black"/>
             </collision>
-            <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <xacro:inertial_cylinder mass="0.1" length="0.08" radius="0.094">
                 <origin xyz="0 0 0" rpy="0 0 0"/>
             </xacro:inertial_cylinder>
         </link>

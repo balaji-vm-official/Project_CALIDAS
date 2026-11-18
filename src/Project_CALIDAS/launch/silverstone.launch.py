@@ -189,7 +189,7 @@ def generate_launch_description():
     )
 
     # 13. RViz2
-    rviz_config_path = os.path.join(pkg_share, 'config', 'lidar_only.rviz')
+    rviz_config_path = os.path.join(pkg_share, 'config', 'silverstone.rviz')
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',

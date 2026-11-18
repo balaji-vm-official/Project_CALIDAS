@@ -1,0 +1,116 @@
+Panels:
+- Class: rviz_common/Displays
+  Name: Displays
+Visualization Manager:
+  Class: ''
+  Displays:
+  - Class: rviz_default_plugins/Grid
+    Enabled: true
+    Name: Grid
+    Value: true
+  - Class: rviz_default_plugins/TF
+    Enabled: true
+    Name: TF
+    Value: true
+    Show Names: false
+  - Class: rviz_default_plugins/RobotModel
+    Enabled: true
+    Name: RobotModel
+    Value: true
+    Description Topic:
+      Depth: 5
+      Durability Policy: Transient Local
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Value: /robot_description
+  - Class: rviz_default_plugins/PointCloud2
+    Enabled: true
+    Name: Live depth point cloud
+    Value: true
+    Size (m): 0.02
+    Style: Points
+    Color Transformer: RGB8
+    Topic:
+      Depth: 5
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Best Effort
+      Value: /depth_camera/points
+  - Class: rviz_default_plugins/Image
+    Enabled: true
+    Name: Colour image
+    Value: true
+    Topic:
+      Depth: 5
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Best Effort
+      Value: /depth_camera/image
+  - Class: rviz_default_plugins/Image
+    Enabled: true
+    Name: Depth image
+    Value: true
+    Normalize Range: true
+    Topic:
+      Depth: 5
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Best Effort
+      Value: /depth_camera/depth_image
+  - Class: rviz_default_plugins/PointCloud2
+    Enabled: true
+    Name: 3D map (RTAB-Map)
+    Value: true
+    Size (m): 0.03
+    Style: Points
+    Color Transformer: RGB8
+    Topic:
+      Depth: 5
+      Durability Policy: Transient Local
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Value: /rtabmap/cloud_map
+  - Class: rviz_default_plugins/Map
+    Enabled: true
+    Name: 2D map (RTAB-Map)
+    Value: true
+    Topic:
+      Depth: 5
+      Durability Policy: Transient Local
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Value: /rtabmap/map
+    Alpha: 0.6
+  Global Options:
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+  - Class: rviz_default_plugins/MoveCamera
+  - Class: rviz_default_plugins/Select
+  - Class: rviz_default_plugins/FocusCamera
+  - Class: rviz_default_plugins/Measure
+  - Class: rviz_default_plugins/SetInitialPose
+    Topic:
+      Depth: 5
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Value: /initialpose
+  - Class: rviz_default_plugins/SetGoal
+    Topic:
+      Depth: 5
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Value: /goal_pose
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Name: Current View
+      Distance: 12.0
+      Pitch: 0.8
+      Yaw: 3.0
+      Value: Orbit (rviz_default_plugins)
+    Saved: null

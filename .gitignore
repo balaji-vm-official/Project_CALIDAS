@@ -1,0 +1,8 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+*.odt
+track_serialize.*
+track_save.*

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="silverstone">
+    
+    <!-- Physics Settings -->
+    <physics name="1ms" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!-- Essential Gazebo Harmonic World Plugins -->
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_type>ogre2</render_type>
+    </plugin>
+
+    <!-- Sun Light with Shadows Enabled -->
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 20 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- Silverstone Track Model (Scaled Down) -->
+    <model name="mini_silverstone">
+      <pose>14 -5 1 0 0 -2.4</pose>
+      <static>true</static>
+      <link name="circuit_link">
+        
+        <!-- Visual -->
+        <visual name="circuit_visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/comrade/Documents/Project_CALIDAS/src/Project_CALIDAS/src/silverstone.obj</uri>
+              <!-- Scale down the mesh here (Change 0.2 to make it bigger/smaller) -->
+              <scale>0.4 0.4 0.4</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.6 1</ambient>
+            <diffuse>0.6 0.6 0.6 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+
+        <!-- Collision -->
+        <collision name="circuit_collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/comrade/Documents/Project_CALIDAS/src/Project_CALIDAS/src/silverstone.obj</uri>
+              <!-- Must match the visual scale exactly -->
+              <scale>0.4 0.4 0.4</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
+      </link>
+    </model>
+
+  </world>
+</sdf>

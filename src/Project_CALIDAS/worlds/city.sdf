@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="city">
+    
+    <!-- Physics Settings -->
+    <physics name="1ms" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!-- Essential Gazebo Harmonic World Plugins -->
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_type>ogre2</render_type>
+    </plugin>
+
+    <!-- Sun Light with Shadows Enabled -->
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 20 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <pose>13 -3 0.1 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>50 50</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>50 50</size></plane></geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- City Model (Scaled Down) -->
+    <model name="city">
+      <pose>2 -6.5 0.05 1.5710 0 -1.571</pose>
+      <static>true</static>
+      <link name="city_link">
+        
+        <!-- Visual -->
+        <visual name="city_visual">
+          <geometry>
+            <mesh>
+              <uri>file:///home/comrade/Documents/Project_CALIDAS/src/Project_CALIDAS/src/city.obj</uri>
+              <!-- Scale down the mesh here (Change 0.002 to make it bigger/smaller) -->
+              <scale>0.002 0.002 0.002</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.6 0.6 0.6 1</ambient>
+            <diffuse>0.6 0.6 0.6 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+
+        <!-- Collision -->
+        <collision name="city_collision">
+          <geometry>
+            <mesh>
+              <uri>file:///home/comrade/Documents/Project_CALIDAS/src/Project_CALIDAS/src/city.obj</uri>
+              <!-- Must match the visual scale exactly -->
+              <scale>0.002 0.002 0.002</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
+      </link>
+    </model>
+
+  </world>
+</sdf>

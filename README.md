@@ -14,7 +14,7 @@ a camera-guided race car, a LiDAR racer with live SLAM, and a depth-camera explo
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04%20%7C%20Linux%20Mint%2022-E95420?logo=ubuntu&logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue)
 
-<img src="docs/images/silverstone_slam_complete.png" alt="LiDAR racer completing a lap of Silverstone while SLAM Toolbox closes the map" width="88%">
+<img src="docs/silverstone_end.png" alt="LiDAR racer completing a lap of Silverstone while SLAM Toolbox closes the map" width="88%">
 
 </div>
 
@@ -38,8 +38,7 @@ a camera-guided race car, a LiDAR racer with live SLAM, and a depth-camera explo
 5. [Getting started](#getting-started)
 6. [ROS interface](#ros-interface)
 7. [Repository structure](#repository-structure)
-8. [Known limitations and roadmap](#known-limitations-and-roadmap)
-9. [Credits, assets and license](#credits-assets-and-license)
+8. [Credits, assets and license](#credits-assets-and-license)
 
 ---
 
@@ -59,9 +58,9 @@ A car that laps a textured 2D circuit using **only one forward-facing camera**: 
 
 <table>
 <tr>
-<td width="33%"><img src="docs/images/track_rviz_raw.png" alt="Raw first-person camera in RViz2"></td>
-<td width="33%"><img src="docs/images/track_opencv_left_turn.png" alt="OpenCV HUD on a left bend"></td>
-<td width="33%"><img src="docs/images/track_opencv_hairpin.png" alt="OpenCV HUD braking into a hairpin"></td>
+<td width="33%"><img src="docs/track_rviz_output.png" alt="Raw first-person camera in RViz2"></td>
+<td width="33%"><img src="docs/track1.png" alt="OpenCV HUD on a left bend"></td>
+<td width="33%"><img src="docs/track2.png" alt="OpenCV HUD braking into a hairpin"></td>
 </tr>
 <tr>
 <td align="center"><sub>Raw camera view in RViz2: the car's own nose and front wheels are visible and must be masked out.</sub></td>
@@ -94,8 +93,8 @@ The same Ackermann car drives the 3D Silverstone circuit using only a **360° 2D
 
 <table>
 <tr>
-<td width="50%"><img src="docs/images/silverstone_slam_start.png" alt="Entering the first corner while SLAM initialises"></td>
-<td width="50%"><img src="docs/images/silverstone_slam_complete.png" alt="Closed-loop Silverstone map after one lap"></td>
+<td width="50%"><img src="docs/silverstone_start.png" alt="Entering the first corner while SLAM initialises"></td>
+<td width="50%"><img src="docs/silverstone_end.png" alt="Closed-loop Silverstone map after one lap"></td>
 </tr>
 <tr>
 <td align="center"><sub>First corner, ~11 s into the run: the map has just started to form.</sub></td>
@@ -104,7 +103,7 @@ The same Ackermann car drives the 3D Silverstone circuit using only a **360° 2D
 </table>
 
 <div align="center">
-<img src="docs/images/silverstone_saved_map.png" alt="Saved 2D occupancy map of the Silverstone circuit" width="46%"><br>
+<img src="docs/track_save.png" alt="Saved 2D occupancy map of the Silverstone circuit" width="46%"><br>
 <sub>The 2D map produced by SLAM Toolbox and saved with <code>map_saver_cli</code> (example files: <code>track_save.pgm</code> / <code>track_save.yaml</code>).</sub>
 </div>
 
@@ -139,9 +138,9 @@ A differential-drive robot (the **auto**) explores a low-poly city and builds a 
 
 <table>
 <tr>
-<td width="33%"><img src="docs/images/city_rtabmap_scan_1.png" alt="First 360° scan"></td>
-<td width="33%"><img src="docs/images/city_rtabmap_scan_2.png" alt="After driving forward one step"></td>
-<td width="33%"><img src="docs/images/city_rtabmap_street.png" alt="Map extended down the street"></td>
+<td width="33%"><img src="docs/city_spawn_scan.png" alt="First 360° scan"></td>
+<td width="33%"><img src="docs/city_second_scan.png" alt="After driving forward one step"></td>
+<td width="33%"><img src="docs/city_third_scan.png" alt="Map extended down the street"></td>
 </tr>
 <tr>
 <td align="center"><sub>Stage 1: the parked robot sweeps its turret and reconstructs the surroundings.</sub></td>
@@ -305,52 +304,6 @@ Project_CALIDAS/
     ├── config/                    gz_bridge.yaml, SLAM Toolbox + Nav2 parameters, RViz layouts
     └── src/                       3D meshes and the track texture
 ```
-
----
-
-## Output:
-
-**Project - 1**
-
-![track1](docs/track1.png)
-
-![track2](docs/track2.png)
-
-![track_rviz_output](docs/track_rviz_output.png)
-
-**Project - 2**
-
-![city_spawn_scan](docs/city_spawn_scan.png)
-
-![city_second_scan](docs/city_second_scan.png)
-
-![city_third_scan](docs/city_third_scan.png)
-
-**Project - 3**
-
-![silverstone_start](docs/silverstone_start.png)
-
-![siverstone_end](docs/siverstone_end.png)
-
----
-
-## Known limitations and roadmap
-
-**Current limitations**
-
-- **Reactive control.** The racer and explorer decide from what the sensors see right now; they do not plan a global racing line or a full exploration route.
-- **Wheel odometry only.** Pose comes from the drive plugins. Long runs will drift; there is no IMU or sensor fusion yet.
-- **Flat-world LiDAR.** A 2D LiDAR reads steep ramps in the 3D Silverstone mesh as walls, which can disturb the map and Nav2 on slopes.
-- **Absolute paths in the world files.** See the `sed` step in [Build](#build).
-- **Speed.** On mid-range hardware the simulator runs below real time, so sensor rates are lower than configured.
-
-**Roadmap**
-
-- [ ] Inverse perspective mapping and curvature feed-forward for the camera car
-- [ ] Stanley or pure-pursuit path tracking on a recorded racing line
-- [ ] IMU and `robot_localization` EKF fusion
-- [ ] Portable asset paths through `GZ_SIM_RESOURCE_PATH`
-- [ ] Frontier-based exploration for the depth robot
 
 ---
 
